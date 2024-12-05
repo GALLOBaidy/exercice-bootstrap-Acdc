@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'HARD_ROCK' ;
+    src: url(../fonts/HARD_ROCK.ttf);
+}
+
+@font-face {
+    font-family: 'rocknroll';
+    src: url(../fonts/rocknroll_typo_crazy.ttf);
+}
+
+@font-face {
+    font-family: 'TheDark';
+    src: url(../fonts/TheDark.ttf);
+}
+
+body {
+    /* background: linear-gradient(45% black, 55% red); */
+    background-color: #000;
+}
+
+.police {
+    font-family: 'TheDark';
+}
+
+#logo {
+    width: 10%;
+    height: 10%;
+    padding-left: none;
+}
+
+.crl {
+    margin: 10%;
+}
+
+th {
+    color: #f00909 !important;
+}
+
+thead {
+    border-bottom: #f00909;
+}
+
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text {
+    ::placeholder{
+
+        color: #f00909;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
